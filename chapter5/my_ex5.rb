@@ -8,13 +8,13 @@ teeth = 'White'
 hair = 'Brown'
 # This variable is to convert inches
 # to centimeters and rounds it to the second place.
-centi = (height * 2.54).round(1)
+height_in_centometers = (height * 2.54).round(1)
 # This variable is to convert lbs
 # to kilograms and rounds it to the second place.
-kilo = (weight / 2.2).round(1)
+weight_in_kilograms = (weight / 2.2).round(1)
 puts "Let's talk about #{name}."
-puts "He's #{height} inches or #{centi} centimeters tall."
-puts "He's #{weight} pounds or #{kilo} kilograms heavy."
+puts "He's #{height} inches or #{height_in_centometers} centimeters tall."
+puts "He's #{weight} pounds or #{weight_in_kilograms} kilograms heavy."
 puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
